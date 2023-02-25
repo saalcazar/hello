@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github/saalcazar/hello/greet"
+	"rsc.io/quote"
+)
 
 func main() {
-	fmt.Println("Hello")
+	fmt.Println(greet.Italian())
+	fmt.Println(quote.Hello())
 }
